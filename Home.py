@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas
+import os
 
 
 
@@ -15,7 +16,7 @@ with column2:
     st.info(f" Computer Engineering student, an aspiring back-end developer, and a cybersecurity enthusiast.\n"
                 f"Here, you can explore some of my projects and their GitHub repositories.")
 
-df=pandas.read_csv("images\data.csv",sep=";")
+df=pandas.read_csv("images/data.csv",sep=";")
 column3 ,empty_column, column4 = st.columns([1.5,0.5,1.5])
 with column3:
 
