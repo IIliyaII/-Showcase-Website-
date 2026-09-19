@@ -37,7 +37,7 @@ uv sync
 3. Run the application
 ```bash
 streamlit run Home.py
-```bash
+```
 Project Structure
 -Showcase-Website-/
 ├── Home.py
